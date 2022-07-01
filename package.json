@@ -1,0 +1,34 @@
+{
+  "name": "@pengyin/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for FED.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm publish --access public",
+    "lint": "eslint --fix import react typescript *.js",
+    "prepublishOnly": "npm run lint",
+    "release": "standard-version",
+    "deploy:git": "git push --follow-tags origin master && npm publish --access public"
+  },
+  "author": "yinpeng",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
+}
