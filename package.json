@@ -1,6 +1,6 @@
 {
   "name": "@pengyin/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for FED.",
   "main": "index.js",
   "scripts": {
@@ -13,13 +13,14 @@
   "author": "yinpeng",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/peng-yin/eslint-config/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/peng-yin/eslint-config",
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/eslint-plugin": "^7.12.1",
+    "@pengyin/eslint-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "eslint": "^7.8.1",
