@@ -301,6 +301,22 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@pengyin/eslint-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@pengyin/eslint-config/-/eslint-config-1.0.0.tgz#9609629e251eec104f07288019580dd8b487daa4"
+  integrity sha512-VTzKSO7i+wjsf2sChA5sBx/3KO0pOciEpzp3oORL+Wtmbe1O8ifa8roSU7EkvRn2IiNc/3V/VeP1rRZYB2qAxg==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/eslint-parser" "^7.12.1"
+    "@babel/eslint-plugin" "^7.12.1"
+    "@typescript-eslint/eslint-plugin" "^4.29.0"
+    "@typescript-eslint/parser" "^4.29.0"
+    eslint "^7.8.1"
+    eslint-plugin-import "^2.22.1"
+    eslint-plugin-react "^7.21.5"
+    eslint-plugin-react-hooks "^4.2.0"
+    typescript "^4.1.3"
+
 "@types/json-schema@^7.0.7":
   version "7.0.11"
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
