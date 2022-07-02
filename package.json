@@ -1,6 +1,6 @@
 {
   "name": "@pengyin/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config for FED.",
   "main": "index.js",
   "scripts": {
