@@ -8,7 +8,7 @@
     "lint": "eslint --fix import react typescript *.js",
     "prepublishOnly": "npm run lint",
     "release": "standard-version",
-    "deploy:git": "git push --follow-tags origin master && npm publish --access public"
+    "deploy:git": "git push --follow-tags origin main && npm publish --access public"
   },
   "author": "yinpeng",
   "license": "MIT",
