@@ -101,3 +101,38 @@ module.exports = {
 ## 细节
 
 严格版配置 `*/strict` 开启了更严格的规则。
+
+
+### CSS
+
+or
+
+```json
+{
+  "extends": "stylelint-config-one/css"
+}
+```
+
+### SCSS
+
+```json
+{
+  "extends": "stylelint-config-one/scss"
+}
+```
+
+### CSS with CSS Modules
+
+```json
+{
+  "extends": "stylelint-config-one/css-modules"
+}
+```
+
+### SCSS with CSS Modules
+
+```json
+{
+  "extends": "stylelint-config-one/scss-modules"
+}
+```
