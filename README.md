@@ -109,7 +109,7 @@ or
 
 ```json
 {
-  "extends": "stylelint-config-one/css"
+  "extends": "@pengyin/eslint-config/css"
 }
 ```
 
@@ -117,7 +117,7 @@ or
 
 ```json
 {
-  "extends": "stylelint-config-one/scss"
+  "extends": "@pengyin/eslint-config/scss"
 }
 ```
 
@@ -125,7 +125,7 @@ or
 
 ```json
 {
-  "extends": "stylelint-config-one/css-modules"
+  "extends": "@pengyin/eslint-config/css-modules"
 }
 ```
 
@@ -133,6 +133,6 @@ or
 
 ```json
 {
-  "extends": "stylelint-config-one/scss-modules"
+  "extends": "@pengyin/eslint-config/scss-modules"
 }
 ```
